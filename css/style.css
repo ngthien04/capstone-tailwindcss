@@ -1,0 +1,103 @@
+
+
+.container {
+    max-width: 1199px;
+    margin: auto;
+}
+/* .btn-gradient {
+    padding: 20px 30px;
+    
+    background-color: #000000;
+    
+    border: 1px solid transparent;
+    transition: all 0.5s;
+    border-radius: 40px;
+    cursor: pointer;
+    color: white;
+    outline: none;
+    text-transform: uppercase;
+    line-height: 40px;
+} */
+.title p {
+    font-weight: 600;
+    
+    margin-bottom: 20px;
+    
+}
+
+.title h2 {
+    
+    font-weight: 800;
+    margin-bottom: 20px;
+    
+}
+.cms {
+    padding-top: 50px;
+    overflow: hidden;
+    background-position: top;
+    background-size: 100%;
+}
+
+.cms_content {
+    display: flex;
+    align-items: center;
+}
+
+.cms_article p {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.cms_content li {
+    padding: 10px 5px 10px 0;
+    font-size: 20px;
+}
+
+.cms_content ul {
+    margin-bottom: 20px;
+}
+
+.cms_left {
+    width: 60%;
+}
+
+.cms_right {
+    width: 40%;
+}
+
+.cms_banner {
+    width: 570px;
+    margin-left: 50px;
+}
+
+.cms_banner img {
+    max-width: 100%;
+    display: block;
+}
+
+.cms_article i {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+
+    font-size: 24px;
+    color: #fff;
+    border-radius: 35px;
+    font-weight: 900;
+    background-image: linear-gradient(to right, #f55f8d 0, #f8ae56 51%, #f55f8d 100%);
+    background-size: 200%;
+    margin-right: 10px;
+}
+.slick-dots li button:before {
+    font-size: 18px !important;   
+    color: #d1d5db !important;    
+    opacity: 1 !important;
+}
+ .slick-dots li.slick-active button:before {
+    color: #2563eb !important;    
+    opacity: 1 !important;
+}
+.slick-dots {
+    bottom: -32px !important;     
+}
